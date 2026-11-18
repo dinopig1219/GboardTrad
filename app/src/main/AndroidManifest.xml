@@ -1,0 +1,7 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:allowBackup="false"
+        android:label="Gboard 简繁快速切换"
+        android:description="为 Gboard 工具栏研究原生简繁切换功能的 LSPosed 模块"
+        android:supportsRtl="true" />
+</manifest>
