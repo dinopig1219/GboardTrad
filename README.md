@@ -27,7 +27,7 @@ These are discovery clues, not proof that a public or directly callable toggle A
 4. Wait for the workflow to finish successfully.
 5. Open the completed run and download the `GboardQuickTradSimp-debug` artifact. It contains the debug APK.
 
-The workflow provisions JDK 17, Android SDK Platform 37, and Gradle 8.13 on GitHub's hosted runner. No local Android Studio installation or local Android SDK is needed.
+The workflow provisions JDK 17, Android SDK Platform 37, platform-tools, and Gradle 8.13 on GitHub's hosted runner. It uses `android-actions/setup-android@v4` and explicitly requests only `platform-tools`; it does not request the obsolete SDK package named `tools` (which now causes `Failed to find package 'tools'`). No local Android Studio installation or local Android SDK is needed.
 
 ## Install and collect diagnostics
 
