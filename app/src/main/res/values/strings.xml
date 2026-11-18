@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Gboard 简繁快速切换</string>
+    <string name="app_description">为 Gboard 工具栏研究原生简繁切换功能的 LSPosed 模块</string>
 </resources>

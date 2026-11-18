@@ -2,6 +2,6 @@
     <application
         android:allowBackup="false"
         android:label="Gboard 简繁快速切换"
-        android:description="为 Gboard 工具栏研究原生简繁切换功能的 LSPosed 模块"
+        android:description="@string/app_description"
         android:supportsRtl="true" />
 </manifest>
