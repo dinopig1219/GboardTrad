@@ -2,12 +2,12 @@ plugins { id("com.android.application") }
 
 android {
     namespace = "dev.gboard.quickswitch"
-    compileSdk = 37
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "dev.gboard.quickswitch"
         minSdk = 26
-        targetSdk = 37
+        targetSdk = 35
         versionCode = 1
         versionName = "0.1.0-diagnostic"
     }
